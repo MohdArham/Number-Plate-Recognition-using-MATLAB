@@ -1,19 +1,19 @@
 # Number-Plate-Recognition-using-MATLAB
-Introduction:
+## Introduction:
 Number Plate Recognition (NPR) is a computer vision and pattern recognition technology used to extract and interpret the characters on vehicle number plates. This project focuses on implementing an NPR system using MATLAB, a powerful programming language and environment for scientific computing and image processing.
-
+## Objective
 The objective of this project is to develop an automated system that can detect number plates in images, extract the characters from the plates, and recognize them using optical character recognition (OCR) techniques. The project utilizes various image processing and computer vision algorithms to achieve accurate and efficient number plate detection and character recognition.
 
-Key Features:
-- Number plate detection: The system locates the number plate region within an input image using edge detection, morphological operations, and region-based segmentation techniques.
+## Key Features:
++ Number plate detection: The system locates the number plate region within an input image using edge detection, morphological operations, and region-based segmentation techniques.
 
-- Character extraction: Once the number plate region is identified, individual characters are extracted using region properties and filtering criteria.
++ Character extraction: Once the number plate region is identified, individual characters are extracted using region properties and filtering criteria.
 
-- Character recognition: The extracted characters are then matched with a set of predefined templates using correlation analysis, enabling the recognition of the alphanumeric characters on the number plate.
++ Character recognition: The extracted characters are then matched with a set of predefined templates using correlation analysis, enabling the recognition of the alphanumeric characters on the number plate.
 
-- Template creation: Templates for alphabets and numbers are created by generating binary representations of individual characters, which serve as references for recognition.
++ Template creation: Templates for alphabets and numbers are created by generating binary representations of individual characters, which serve as references for recognition.
 
-GitHub Repository Structure:
+## GitHub Repository Structure:
 1. `Letter_detection_code.m`: MATLAB function for recognizing individual letters from cropped images using template matching.
 
 2. `Plate_detection_code.m`: MATLAB script for detecting number plates in images, extracting characters, and performing OCR.
