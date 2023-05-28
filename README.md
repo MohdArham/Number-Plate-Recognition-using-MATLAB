@@ -26,7 +26,7 @@ The objective of this project is to develop an automated system that can detect 
 
 6. `NewTemplates.mat`: MATLAB data file storing the combined templates for recognition.
 
-Usage Instructions:
+## Usage Instructions:
 1. Install MATLAB and ensure all required dependencies are available.
 
 2. Clone or download the GitHub repository to your local machine.
@@ -35,8 +35,10 @@ Usage Instructions:
 
 4. Modify the code or templates as needed for customization or improvement.
 
-Contributing:
+## Contributing:
 We welcome contributions to enhance the functionality, accuracy, and efficiency of this number plate recognition system. If you have any ideas, bug fixes, or improvements, please feel free to submit a pull request or open an issue in the GitHub repository.
 
-License:
-This project is licensed under the [MIT License]
+## License:
+This project is licensed under the MIT License.
+## Maintainers
++ Mohd Arham
